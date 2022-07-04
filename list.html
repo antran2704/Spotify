@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playlist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css" integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/list.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div class="grid wide">
+            
+            <div class="row">
+                <nav class="navbar col l-2 m-12">
+                    <ul class="menu menu--first">
+                      <li class="menu-item">              
+                        <a href="#" class="menu-link">
+                            <i class="icon fa-solid fa-house"></i>
+                            Trang chủ
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                        <i class="icon fa-solid fa-magnifying-glass"></i>
+                            Tìm kiếm
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                        <i class="icon fa-solid fa-folder"></i>
+                            thư viện
+                        </a>
+                      </li>
+                    </ul>       
+
+                    <ul class="menu menu--second">
+                        <li class="menu-item">
+                          <a href="#" class="menu-link">
+                              Tạo playlist
+                          </a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="#" class="menu-link">
+                              Bài hát đã thích
+                          </a>
+                        </li>
+                    </ul> 
+                </nav>
+                <div class="nav__header">
+                    <div class="nav__header-control">
+                        <i class="nav__header-icon fa-solid fa-angle-left"></i>
+                        <i class="nav__header-icon fa-solid fa-angle-right"></i>
+                    </div>
+                    <div class="nav__header-option">
+                        <button class="nav__header-btn btn btn-option">Nâng cấp</button>
+                        <button class="nav__header-author btn btn-option">
+                            Lưu Quỳnh Anh
+                            <i class="header-author__icon fa-solid fa-caret-down"></i>
+                            <div class="nav__header-nav nav">
+                                <ul class="nav__header-menu nav-menu">
+                                  <li class="nav__header-item nav-item">
+                                    <a href="#" class="nav__header-link nav-link">Tài khoản</a>
+                                  </li>
+                                  <li class="nav__header-item nav-item">
+                                    <a href="#" class="nav__header-link nav-link">Hồ sơ</a>
+                                  </li>
+                                  <li class="nav__header-item nav-item">
+                                    <a href="#" class="nav__header-link nav-link">Nâng cấp lên Premium</a>
+                                  </li>
+                                  <li class="nav__header-item nav-item">
+                                    <a href="#" class="nav__header-link nav-link">Chế độ riêng tư</a>
+                                  </li>
+                                  <li class="nav__header-item nav-item">
+                                    <a href="#" class="nav__header-link nav-link">Cài đặt</a>
+                                  </li>
+                                  <li class="nav__header-item nav-item">
+                                    <a href="#" class="nav__header-link nav-link">Đăng xuất</a>
+                                  </li>
+                                </ul>
+                                
+                            </div>
+                        </button>
+                    </div>
+                    
+                </div>
+                <main class="main col l-7-5 m-12">
+                    <div class="main__playlist-header">
+                        <h3 class="playlist-header-title text-title">Danh sách phát công khai</h3>
+                        <div class="playlist-header__content">
+                            <div class="playlist-header__img-block">
+                                <img src="./assets/imgs/img1.jpg" alt="" class="playlist-header__img">
+                            </div>
+                            <div class="playlist-header__text">
+                                <h1 class="playlist-header__name white-color">V-Pop không thể thiếu</h1>
+                                <div class="playlist-header__desc text-desc">
+                                    V-Pop đã đơm hoa trên những ca khúc này.
+                                    Ảnh bìa: Hoàng Thùy Linh
+                                </div>
+                                <div class="playlist-header__desc">
+                                    <div class="playlist-header__brand">
+                                        <img src="./assets/imgs/brand.png" alt="" class="playlist-header__icon">
+                                    </div>
+                                    <a href="" class="playlist__text playlist-header__link white-color">Spotify</a>
+                                    <span class="playlist__text playlist-header__dot white-color"></span>
+                                    <p class="playlist__text playlist-header__liked white-color">110.148 lượt thích</p>
+                                    <span class="playlist__text playlist-header__dot white-color"></span>
+                                    <p class="playlist__text playlist-header__total-song white-color">56 bài hát,</p>
+                                    <p class="playlist__text playlist-header__total-time text-desc white-color">3 giờ 34 phút</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__playlist-content">
+                        <div class="playlist-content__header">
+                            <div class="playlist-content__block">
+                                <div class="playlist-content__toogle">
+                                    <i class="playlist-content__icon playlist-content__play fa-solid fa-circle-play"></i>
+                                    <i class="playlist-content__icon playlist-content__pause fa-solid fa-circle-pause"></i>
+                                </div>
+                                <div class="playlist-content__liked">
+                                    <i class="playlist-content__icon fa-regular fa-heart"></i>
+                                </div>
+                                <div class="playlist-content__download">
+                                    <i class="playlist-content__icon fa-regular fa-circle-down"></i>
+                                </div>
+                                <div class="playlist-content__option">
+                                    <i class="playlist-content__icon fa-solid fa-ellipsis"></i>
+                                    <div class="playlist-content__nav nav">
+                                        <ul class="playlist-content__menu nav-menu">
+                                          <li class="playlist-content__item nav-item">
+                                            <a href="#" class="playlist-content__link nav-link">Tài khoản</a>
+                                          </li>
+                                          <li class="playlist-content__item nav-item">
+                                            <a href="#" class="playlist-content__link nav-link">Hồ sơ</a>
+                                          </li>
+                                          <li class="playlist-content__item nav-item">
+                                            <a href="#" class="playlist-content__link nav-link">Nâng cấp lên Premium</a>
+                                          </li>
+                                          <li class="playlist-content__item nav-item">
+                                            <a href="#" class="playlist-content__link nav-link">Chế độ riêng tư</a>
+                                          </li>
+                                          <li class="playlist-content__item nav-item">
+                                            <a href="#" class="playlist-content__link nav-link">Cài đặt</a>
+                                          </li>
+                                          <li class="playlist-content__item nav-item">
+                                            <a href="#" class="playlist-content__link nav-link">Đăng xuất</a>
+                                          </li>
+                                        </ul>
+                                    </div>    
+                                </div>
+                            </div>
+                            
+                            <div class="playlist-content__block">
+                                <div class="playlist-content__search">
+                                    <i class="search__icon playlist-content__icon fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <div class="playlist-content__order white-color">
+                                    <p class="order__text">Thứ tự tùy chỉnh</p>
+                                    <i class="order__icon fa-solid fa-caret-down"></i>
+                                    <div class="order__nav nav">
+                                        <ul class="order__menu nav-menu">
+                                          <li class="order__item nav-item">
+                                            <a href="#" class="order__link nav-link">Tài khoản</a>
+                                          </li>
+                                          <li class="order__item nav-item">
+                                            <a href="#" class="order__link nav-link">Hồ sơ</a>
+                                          </li>
+                                          <li class="order__item nav-item">
+                                            <a href="#" class="order__link nav-link">Nâng cấp lên Premium</a>
+                                          </li>
+                                          <li class="order__item nav-item">
+                                            <a href="#" class="order__link nav-link">Chế độ riêng tư</a>
+                                          </li>
+                                          <li class="order__item nav-item">
+                                            <a href="#" class="order__link nav-link">Cài đặt</a>
+                                          </li>
+                                          <li class="order__item nav-item">
+                                            <a href="#" class="order__link nav-link">Đăng xuất</a>
+                                          </li>
+                                        </ul>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="playlist-content__list">
+                            <ul class="list__block list__block--title">
+                                <li class="list__item">
+                                    <div class="list__item-wrap list__item-wrap--desc">
+                                        <span class="list__item-#">#</span>
+                                        <p class="list__item-title text-title">Tieu de</p>
+                                    </div>
+                                    <div class="list__item-wrap list__item-wrap--album">
+                                        <p class="list__item-title text-title">ALBUM</p>
+                                    </div>
+                                    <div class="list__item-wrap list__item-wrap--time">
+                                        <i class="time__icon fa-solid fa-clock"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="list__block list__block--song">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </main>
+                <section class="author col l-2-5 m-0">
+                    <div class="author__header">
+                        <h3 class="author__header-active">Hoạt động của bạn bè</h3>
+                        <i class="author__icon ti-stamp"></i>
+                    </div>
+                    
+                    <p class="author__desc">
+                        Cho phép bạn bè và người theo dõi bạn 
+                        trên Spotify thấy nội dung bạn đang nghe.
+                    </p>
+                    <div class="author__user-wrap">
+                        <div class="author__user">
+                            <i class="author__user-icon ti-stamp"></i>
+                            <div class="author__user-intro-wrap">
+                                <div class="author__user-intro"></div>
+                                <div class="author__user-intro"></div>
+                                <div class="author__user-intro"></div>
+    
+                            </div>
+                        </div>
+                        <div class="author__user">
+                            <i class="author__user-icon ti-stamp"></i>
+                            <div class="author__user-intro-wrap">
+                                <div class="author__user-intro"></div>
+                                <div class="author__user-intro"></div>
+                                <div class="author__user-intro"></div>
+    
+                            </div>
+                        </div>
+                        <div class="author__user">
+                            <i class="author__user-icon ti-stamp"></i>
+                            <div class="author__user-intro-wrap">
+                                <div class="author__user-intro"></div>
+                                <div class="author__user-intro"></div>
+                                <div class="author__user-intro"></div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <p class="author__desc">
+                        Cho phép bạn bè và người theo dõi bạn 
+                        trên Spotify thấy nội dung bạn đang nghe.
+                    </p>
+                    <button class="author__btn btn">Cài đặt</button>
+                </section>
+                <div class="control__wrap active">
+                    <div class="control__block-close">
+                        <i class="control__close-icon fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="control__block-info">
+                        <div class="control__block-img">
+                            <img src="./assets/imgs/img4.jpg" alt="" class="control__img">
+                        </div>
+                        <div class="control__block-text">
+                            <h3 class="control__block-name text-title">Chìm sâu (feat.Trung Trần)</h3>
+                            <p class="control__block-singer text-desc">RPT MCK, Trung Tran</p>
+                        </div>
+                        <i class="control__block-icon fa-regular fa-heart"></i>
+                    </div>
+                    <div class="control__block-btn">
+                        <div class="control__btn">
+                            <div class="control__btn-random">
+                                <i class="control__btn-icon control__random-icon fa-solid fa-shuffle"></i>
+                            </div>
+                            <div class="control__btn-prev">
+                                <i class="control__btn-icon fa-solid fa-backward-step"></i>
+                            </div>
+                            <div class="control__btn-toogle">
+                                <i class="control__btn-icon control__btn-play fa-solid fa-circle-play"></i>
+                                <i class="control__btn-icon control__btn-pause fa-solid fa-circle-pause"></i>
+                            </div>
+                            <div class="control__btn-next">
+                                <i class="control__btn-icon fa-solid fa-forward-step"></i>
+                            </div>
+                            <div class="control__btn-repeat">
+                                <i class="control__btn-icon control__repeat-icon fa-solid fa-repeat"></i>
+                            </div>
+                        </div>
+                        <div class="control__progress-container">
+                            <div class="control__progress">
+                                <span class="control__progress-time text-desc  progress__current-time">0:19</span>
+                                <input id = "progress" step="1" type="range" value="0" min="0" max="100">
+                                <div class="control__progress-nav"> 
+                                    <div class="control__progress-update" style="width: 0;"></div>
+                                </div>
+                                <span class="control__progress-time text-desc control__progress-duration">3:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control__block-option">
+                        <div class="control__option-micro">
+                            <i class="control__option-icon ti-microphone-alt"></i>
+                        </div>
+                        <div class="control__option-list">
+                            <i class="control__option-icon ti-layout-media-center"></i>                        
+                        </div>
+                        <div class="control__option-computer">
+                            <i class="control__option-icon ti-headphone"></i>
+                        </div>
+                        <div class="control__option-volume">
+                            <i class="control__option-icon control__volume-icon ti-volume"></i>
+                            <div class="control__volume-container">
+                                <input type="range" name="" step="0.1" id="volume" value="1" min="0" max="1">
+                                <div class="control__volume-nav"> 
+                                    <div class="control__volume-update"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control__block-toogle">
+                        <i class="control__toogle-play fa-solid fa-play"></i>
+                        <i class="control__toogle-pause fa-solid fa-pause"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <audio id="audio" src=""></audio>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
